@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="body">
+    <style>
+        body{
+            margin: 2px;
+            border: 2px solid red;
+        }
+        ol{
+            list-style-type: none;
+        }
+        ol li{
+            display: inline;
+            background-color: rgb(218, 218, 218);
+            border: 2px solid red;
+            border-radius: 5px;
+            padding: 3px;
+            margin: 50px;
+        }
+        .info, .nav{
+            text-align: center;
+            border: 2px solid red;
+            margin: 2px;
+        }
+        main{ 
+            display: flex;
+            justify-content: flex-start;
+        }
+        .text{
+            width: 50%;
+            min-width: 100px;
+            border: 2px solid red;
+            margin: 0px 0px 2px 2px;
+            padding: 2px;
+        }
+        .img{
+            width: 50%;
+            min-width: 100px;
+            border: 2px solid red;
+            margin: 2px 2px 2px 0px;
+        }
+        img{
+            width: 100%;
+        }
+        .container{
+        display: flex;
+        justify-content: flex-start;
+        margin: 2px;
+        }
+        #con1{
+        width: 33%;
+        border: 2px solid red;
+        padding: 2px;
+        word-break: break-all;
+        }
+        #con2{
+        width: 33%;
+        border: 2px solid red;
+        padding: 2px;
+        word-break: break-all;
+        }
+        #con3{
+        width: 33%; 
+        border: 2px solid red;
+        padding: 2px;
+        word-break: break-all;
+        }
+        footer{
+            border: 2px solid red;
+            margin: 2px;
+            text-align: center;
+        }
+        @media  screen and (min-width: 270px) and (max-width: 410px) {
+             ol li{
+                display: inline;
+                margin: 0px;
+                font-size: 10px;
+            }
+            img{
+                width: 100%;
+            }
+            .container{
+                width: 100%;
+            }
+        }
+        @media screen and (min-width: 410px) and (max-width: 510px ) {
+            ol li{
+                display: inline;
+                margin: 0px;
+                font-size: 10px;
+            }
+            img{
+                width: 100%;
+            }
+        }
+        @media screen and (min-width: 510px) and (max-width: 768px ) {
+            ol li{
+                display: inline;
+                margin: 5px;
+                font-size: 10px
+            }
+            img{
+                width: 100%;
+            }
+            
+        }@media screen and (min-width: 768px) and (max-width: 1024px ) {
+            ol li{
+                display: inline;
+                margin: 10px; 
+                font-size: 15px;
+            }
+            img{
+                width: 100%;
+            }
+        }@media screen and (min-width: 1024px) and (max-width: 1440px ) {
+            ol li{
+                display: inline;
+                margin: 25px;
+                font-size: 15px;
+            }
+            img{
+                width: 100%;
+            }
+        }
+    </style>
+
+    <div class="nav">
+        <nav>
+            <ol>
+                <li>Сторінка 1</li>
+                <li>Сторінка 2</li>
+                <li>Сторінка 3</li>
+                <li>Сторінка 4</li>
+                <li>Сторінка 5</li>
+                <li>Сторінка 6</li>
+                <li>Сторінка 7</li>
+            </ol>
+        </nav>
+    </div>
+
+    <div class="info">
+        <ol>
+            <li>Якась інформація</li>
+            <li>Якась інформація</li>
+            <li>Якась інформація</li>
+        </ol>
+    </div>
+
+    <main class="main">
+        <div class="text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eos,
+                 praesentium facilis quasi neque distinctio rerum
+                 in veniam quaerat ullam quae officia assumenda cumque nisi! 
+                 Soluta cupiditate officia voluptates in.
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eos,
+                 praesentium facilis quasi neque distinctio rerum
+                 in veniam quaerat ullam quae officia assumenda cumque nisi! 
+                 Soluta cupiditate officia voluptates in.
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eos,
+                 praesentium facilis quasi neque distinctio rerum
+                 in veniam quaerat ullam quae officia assumenda cumque nisi! 
+                 Soluta cupiditate officia voluptates in.
+                </p>
+        </div>      
+
+        <div class="img"> 
+            <img src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg" alt="Cat">
+        </div>
+    </main>
+
+    <div class="container">
+        <div id="con1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Deleniti dignissimos soluta culpa id, vel illo recusandae dolor exercitationem itaque sapiente? 
+            Unde nam eligendi animi voluptatum dolorum amet a sunt voluptatem.</div>
+        <div id="con2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Deleniti dignissimos soluta culpa id, vel illo recusandae dolor exercitationem itaque sapiente? 
+           Unde nam eligendi animi voluptatum dolorum amet a sunt voluptatem.</div>
+        <div id="con3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Deleniti dignissimos soluta culpa id, vel illo recusandae dolor exercitationem itaque sapiente? 
+           Unde nam eligendi animi voluptatum dolorum amet a sunt voluptatem.</div>
+    </div>
+        
+    <footer>
+        <p>Created by ....</p>
+    </footer>
+    
+</body>
+</html>
