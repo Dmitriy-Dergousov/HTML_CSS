@@ -1,0 +1,202 @@
+body{
+    border: 2px solid red;
+}
+.hat p,.menu p{ 
+   font-size: 20px;
+   margin: 0;
+   position: absolute;
+   left: 50%;
+}
+.left_block p, 
+.right_block p, 
+.center_block p{
+   position: absolute;
+   top: 0px;
+   left: 45%;
+   font-size: 20px;
+}
+.orange_left p,
+.a_center p{
+   position: absolute;
+   font-size: 20px;
+}
+.a_left p,
+.b_left p{
+   position: absolute;
+}
+.a_c p, 
+.b_c p{
+   position: absolute;
+}
+
+.pink{
+   display: flex;
+   background-color: palevioletred;
+   font-size: 3vw;
+   padding: 2em;
+   flex: 1;
+}
+.white{
+   background-color: white;
+   padding: 2em;
+   margin: 0px  50px;
+   flex: 1;
+}
+.black{
+   background-color: black;
+   padding: 1.5em;
+   margin: 0px 50px;
+   flex: 1;
+}
+
+
+.grey{
+   display: flex;
+   background-color: grey;
+   font-size: 1vw;
+   padding: 1em 0em;
+   flex: 2;
+}
+.red{
+   background-color: red;
+   padding: 10em; 
+   flex: 2;
+}
+.orange{
+   background-color: orange;
+   padding: 10em; 
+   flex: 2;
+}
+.blue{
+   background-color: aqua;
+   padding: 10em;
+   flex: 2;
+}
+.yellow{
+   background-color: yellow;
+   padding: 10em; 
+   flex: 2;
+}
+
+.footer{
+   display: flex; 
+   font-size: 1vw;
+}
+
+
+.left_block{
+   display: flex;
+   position: relative;
+   background-color: green;
+   padding: 10em 5em;
+   padding-bottom: 0em;
+   flex: 3;
+   font-size: 1vw;
+}
+.orange_left{
+   display: flex;
+   position: relative;
+   background-color: orange;
+   padding: 5em 0em;
+   padding-bottom: 0em;
+   flex: 3;
+}
+.a_left{
+   background-color: pink;
+   position: relative;
+   padding: 5em;
+   flex: 3;
+}
+.b_left{
+   background-color: yellow;
+   position: relative;
+   padding: 5em;
+   flex: 3;
+}
+
+
+.center_block{
+   display: flex;
+   position: relative;
+   background-color: aqua;
+   padding: 10em 0em;
+   padding-bottom: 0em;
+   flex: 4;
+   font-size: 1vw;
+}
+.center_red{
+   background-color: red;
+   padding: 5em;
+   flex: 4;
+}
+.a_center{
+   display: flex;
+   position: relative;
+   background-color: yellow;
+   padding: 5em 0em;
+   padding-bottom: 0em;
+   flex: 4;
+}
+.a_c{
+   position: relative;
+   background-color: orange;
+   padding: 3em;
+   flex: 4
+}
+.b_c{
+   position: relative;
+   background-color: red;
+   padding: 3em;
+   margin-top: 15em;
+   flex: 4;
+}
+.center_orange{
+   background-color: orange;
+   padding: 5em;
+   flex: 4;
+}
+
+
+.right_block{
+   display: flex;
+   position: relative;
+   background-color: blue;
+   padding: 10em 0em;
+   flex: 5;
+   padding-bottom: 0em;
+}
+.blue_left{
+   background-color: aqua;
+   padding: 5em;
+   flex: 5;
+   margin-top: 20em;
+}
+.yellow_center{
+   background-color: yellow;
+   padding: 5em;
+   margin-top: 10em;
+   margin-bottom: 5em;
+   flex: 5;
+}
+.orange_right{
+   background-color: orange;
+   padding: 1em 0em;
+   margin-bottom: 15em;
+   flex: 5;
+}
+.text1{
+   background-color: black;
+   color: aqua;
+   padding: 1em 2.5em;
+   margin-left: 3em;
+   margin-top: 3em;
+   flex: 5;
+}
+.text2{
+   background-color: black;
+   color: aqua;
+   padding: 1em 2.5em;
+   margin-top: 3em;
+   margin-right: 3em;
+   flex: 5;
+}
