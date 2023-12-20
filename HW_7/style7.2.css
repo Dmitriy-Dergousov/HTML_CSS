@@ -1,0 +1,16 @@
+section{
+    border: 2px solid red;
+    border-radius: 20px;
+    display: flex;
+    float: inline-start;
+    flex-flow: column;
+    font-size: 20px;
+    padding: 10px;
+    background-color: aquamarine;
+}
+label{
+    margin: 10px;
+}
+.submit{
+    align-self: center;
+}
