@@ -1,0 +1,167 @@
+body{
+    border: 2px solid red;
+}
+#hat p{
+    position: absolute;
+    font-size: 15px;
+    margin: 0;
+    left: 50%;
+}
+#menu p{
+    position: absolute;
+    font-size: 15px;
+    margin: 0;
+    left: 50%;
+}
+.left_b p,
+.centr_b p,
+.right_b p{
+    position: absolute;
+    top: 0;
+    left: 40%;
+    font-size: 20px;
+}
+
+
+#hat div{
+    padding: 4em 10em;
+}
+.pink{
+    background-color: palevioletred;
+}
+.white{
+    background-color: white;
+}
+.black{
+    background-color: black;
+}
+
+
+.gray div{
+    padding: 25%;
+}
+.gray{
+    display: grid;
+    background-color: gray;
+    padding: 1em 0em;
+    grid-template-columns: repeat(auto-fit, minmax(1px, 1fr));
+}
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+.aqua{
+    background-color: aqua;
+}
+.yellow{
+    background-color: yellow;
+}
+
+#footer{
+    display: grid;
+    padding: 0em;
+    grid-template-columns: repeat(auto-fit, minmax(1px, 1fr));
+}
+
+.left_b{
+    position: relative;
+    padding: 5em;
+    padding-bottom: 0em;
+    background-color: green;
+}
+.left{
+    position: relative;
+    display: grid;
+    padding: 5em 0em;
+    padding-bottom: 0;
+    grid-template-columns: repeat(auto-fit, minmax(1px, 1fr));
+    background-color: orange;
+}
+.left div{
+    position: relative;
+    padding: 10em 0em;
+}
+.a-left{
+    background-color: pink;
+}
+.b-left{
+    background-color: yellow;
+}
+
+
+.centr_b{
+    position: relative;
+    display: grid;
+    padding: 5em 0em;
+    padding-bottom: 0em;
+    background-color: aqua;
+    grid-template-columns: repeat(auto-fit, minmax(1px, 1fr));
+}
+.centr_red{
+    background-color: red;
+}
+.a-centr{
+    position: relative;
+    background-color: yellow;
+    display: grid;
+    padding-bottom: 0;
+    grid-template-columns: repeat(auto-fit, minmax(1px, 1fr));
+}
+.A-c{
+    position: relative;
+    margin-top: 5em;
+    background-color: orange;
+}
+.B-c{
+    position: relative;
+    margin-top: 15em;
+    background-color: red;
+}
+.centr_orange{
+    background-color: orange;
+}
+
+
+.right_b{
+    position: relative;
+    display: grid;
+    padding: 5em 0em;
+    padding-bottom: 0em;
+    background-color: blue;
+    grid-template-columns: repeat(auto-fit, minmax(1px, 1fr));
+}
+.aqua_r{
+    margin-top: 15em;
+    background-color: aqua;
+}
+.yellow_r{
+    margin-top: 10em;
+    margin-bottom: 5em;
+    background-color: yellow;
+}
+.orange_r{
+    display: grid;
+    margin-top: 5em;
+    margin-bottom: 10em;
+    background-color: orange;
+}
+.text1{
+    text-align: center;
+    padding: .5em 0em;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    color: aqua;
+    background-color: black;
+}
+.text2{
+    text-align: center;
+    padding: .5em 0em;
+    margin-top: 2em;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    color: aqua;
+    background-color: black;
+}
